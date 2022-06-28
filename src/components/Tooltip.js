@@ -4,8 +4,8 @@ import '../css/tooltip.css'
 export default class Tooltip extends Component {
   render() {
     return (
-      <div class="tooltip">
-        <span class="tooltiptext">Thanks for Hover!</span>
+      <div class="my-tooltip">
+        <span class="my-tooltiptext">Thanks for Hover!</span>
         {this.props.children}
       </div>
     )
