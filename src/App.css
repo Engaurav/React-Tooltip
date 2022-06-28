@@ -1,8 +1,17 @@
-.App {
-  text-align: center;
+/* css for body */
+body{
+  background: ghostwhite;
 }
 
 
+
+/* css for app component */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* css for button in button component */
 .button{
   cursor: pointer;
   background: none;
@@ -11,4 +20,26 @@
   font-size: large;
 }
 
+/* css for h2 heading */
+h2{
+  color: darkcyan;
+}
+
+
+/* css for form div */
+.form-div{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* css for form label */
+.form-div label{
+  width: 300px;
+  text-align: left;
+  font-weight: 400;
+  color: midnightblue;
+}
 
